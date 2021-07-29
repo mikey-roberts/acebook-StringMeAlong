@@ -1,36 +1,70 @@
-# AceBook
+# Catbook - rails
+### [Makers Academy](http://www.makersacademy.com) - Week 8 Group Project
 
-REQUIRED INSTRUCTIONS:
+## Index
+* [Technologies](#Technologies)
+* [Installation](#Install)
+* [Mockup](#Mockup)
+* [Sequence Diagram](#Sequence)
+* [Database Schema](#Database)
+* [Screen Shots](#Shots)
+* [Live on Heroku](#Heroku)
 
-1. Fork this repository to `acebook-teamname` and customize
-the below**
+### Headline specifications
 
-[You can find the engineering project outline here.](https://github.com/makersacademy/course/tree/master/engineering_projects/rails)
+- Users can sign up
+- Users can log in
+- Users can log out
+- Posts appear with the newest post first
+- Users can comment on posts
+- Users can like posts and the number of likes is visible next to the post
+- A user's name and a little photo of them appears next to their posts
+- Users can navigate the website with a nav bar at the top of the page
+- Users can upload photos and see them just like posts
 
-2. The card wall is here: <please update>
+## <a name="Technologies">Technologies</a>
+* Ruby
+* Rails
+* Rspec
+* Javascript
+* Jquery
+* HTML
+* CSS
 
-## How to contribute to this project
-See [CONTRIBUTING.md](CONTRIBUTING.md)
+## <a name="Mockup">Mockup</a>
 
-## Quickstart
+## <a name="Sequence">Sequence Diagram</a>
 
-First, clone this repository. Then:
+## <a name="Database">Database Schema</a>
 
-```bash
-> bundle install
-> bin/rails db:create
-> bin/rails db:migrate
+## <a name="Install">Installation</a>
 
-> bundle exec rspec # Run the tests to ensure it works
-> bin/rails server # Start the server at localhost:3000
+### To clone the repo
+```shell
+$ git clone 
+$ cd catbook
+```
+### Rspec Tests
+```shell
+$ rspec
+```
+### Rails
+``` shell
+$ bundle install
+$ bin/rails db:create
+$ bin/rails db:migrate
+$ bin/rails server # Start the server at localhost:3000
 ```
 
-## Troubleshooting
+## <a name="Shots">Screen Shots</a>
+### Main Screen
 
-If you don't have Node.js installed yet, you might run into this error when running rspec:
-```
-ExecJS::RuntimeUnavailable:
-  Could not find a JavaScript runtime. See https://github.com/rails/execjs for a list of available runtimes.
- ```
-That is because Rails will use a Javascript runtime (such as Node) under the hood. The easiest way is to install Node by running `brew install node` - 
-and then run `bundle exec rspec` again
+
+### Sign Up
+
+
+### Profile Page
+
+
+
+## <a name="Heroku">Live on Heroku</a>
