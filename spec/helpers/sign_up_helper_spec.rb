@@ -1,10 +1,6 @@
 require 'rails_helper'
 
-def user_sign_up
-  visit '/'
-  fill_in 'user_email', with: 'test@test.com'
-  fill_in 'user_password', with: 'testing123'
-  fill_in 'user_password_confirmation', with: 'testing123'
-
-  click_button 'Sign up'
+def sign_up
+  user = User.create!(:firstname => 'Mike', :lastname => 'Bestattesting', :email => 'test@example.com', :password => 'f4k3p455w0rd')
+  login_as(user, :scope => :user)
 end
