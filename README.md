@@ -1,4 +1,4 @@
-# AceBook
+# AceBook ('CatBook')
 ### [Makers Academy](http://www.makersacademy.com) - Week 8 Group Project
 
 ## Index
@@ -9,6 +9,7 @@
 * [Database Schema](#Database)
 * [Live on Heroku](#Heroku)
 
+## Task
 ### Headline specifications
 
 - Users can sign up
