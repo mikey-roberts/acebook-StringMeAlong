@@ -73,7 +73,7 @@
               <% if pre_like %>
                 <span class ='likes'><%= link_to 'Like', post_like_path(post, pre_like), method: :delete, class: "text-primary" %><i class="fas fa-thumbs-up text-primary"></i></span>
               <% else %>
-                <span class ='likes'><%= link_to 'Likes', post_likes_path(post), method: :post %> <span> <i style ='color: #ddd' class="far fa-thumbs-up"></i></span>
+                <span class ='likes'><%= link_to 'Like', post_likes_path(post), method: :post %> <span> <i style ='color: #ddd' class="far fa-thumbs-up"></i></span>
               <% end %>
             </p>
             <p class ='post__footer-el'><%= link_to "Comment", post, class: 'post__footer-el', remote: true %></p>
